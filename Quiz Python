@@ -1,0 +1,39 @@
+print("Seja muito bem vindo(a) ao Quiz da Hellen!")
+answer_user = input("Quer começar? (S/N) ")
+
+
+if answer_user != "S":
+  quit()
+  
+score = 0
+  
+print("Começando...")  
+
+print("Quem foi o criador da Linguagem Python? \n (A) Guido Van Rossum \n (B) James Gosling \n (C) Brendan Eich")
+answer_1 = input("Resposta:")
+
+if answer_1 == "A" or "Guido Van Rossum":
+    print("Correto!")
+    score = score + 1
+else:
+    print("Incorreto :(")
+
+print("Em qual linguagem de programção está escrito esse código? \n (A) JavaScript \n (B) CSS \n (C) Python")
+answer_1 = input("Resposta:")
+
+if answer_1 == "C" or "Python":
+    print("Correto!")
+    score = score + 1
+else:
+    print("Incorreto :(")
+    
+print("Por ultimo, qual function usamos quando precisamos mostrar algo na tela do usuário? \n (A) msg \n (B) print \n (C) elif")
+answer_1 = input("Resposta:")
+
+if answer_1 == "B" or "print":
+    print("Correto!")
+    score = score + 1 
+else:
+    print("Incorreto :(")
+    
+print(f"O quiz acabou :)... Sua pontuação {score}/3")
